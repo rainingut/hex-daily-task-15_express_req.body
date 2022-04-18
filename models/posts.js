@@ -3,6 +3,6 @@ const postSchema = new mongoose.Schema(
   /* 加入欄位驗證 */
 );
 
-const Post = mongoose.model('posts', postSchema);
+const Post = mongoose.model('Post', postSchema);
 
 module.exports = Post;
